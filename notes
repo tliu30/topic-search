@@ -1,0 +1,19 @@
+A collection of reports on the progress of the algo.
+====================================================
+
+06/13/2014
+----------
+Tested 'initial commit' on query 'australia gold'
+Evaluated
+  LSI 200
+  LDA 100 (on bow and tfidf)
+  HDP (on tfidf)
+
+LSI performs the best
+  5 resulting topics
+  3 significant (tanning, money, tourism)
+
+LDA and HDP were both nonsensical
+
+Seems that I need a stop list and to get rid of code parts.
+----------
